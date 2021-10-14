@@ -69,3 +69,15 @@ grid-template-columns: 2fr 3fr;
 .animation img{
     max-width: 500px;
 }
+
+.line-height{
+ margin-bottom: 2rem;
+}
+
+.byline{
+    font-size: 20px;
+}
+
+.line-feed{
+    display: block; 
+}
