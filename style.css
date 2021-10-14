@@ -1,0 +1,71 @@
+.main-container{
+    background: #FFE8D2;
+    min-height: 90vh;  /* 55% av nettleserens sin høyde*/
+    display: flex;
+    flex-direction: column; /*kommer underhverandre*/
+    align-items: center; /*sentrert teksten*/
+    justify-content: center;/*teksten kommer mer ned på siden*/
+    
+    padding: 1rem;
+   
+}
+
+.grid-container-3columns{
+display: grid;
+grid-template-columns: 1fr 3fr 4fr;
+}
+
+.default-container-width{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.beige{
+    background-color:#FFE8D2;
+}
+.orange{
+        background-color:#d18136;
+
+}
+.brun{
+    background-color:#e2bd9a;
+}
+.peach{
+    background-color:#C76E48;
+}
+.white{
+    background-color: #ECF0F2;
+}
+.large-prosentnumber{
+    font-size: 80px;
+}
+
+.grid-container-2columns-text-second{
+display: grid;
+grid-template-columns: 2fr 3fr;
+}
+
+.grid-container-2columns-text-first{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.grid-3rows{
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+.grid-3rowslargenumber{
+    grid-template-rows: 4fr 3fr 2fr;
+
+}
+
+.large-number{
+    font-size: 50px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.animation img{
+    max-width: 300px;
+}
