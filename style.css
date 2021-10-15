@@ -23,7 +23,7 @@
 
 .grid-container-3columns {
   display: grid;
-  grid-template-columns: 1fr 3fr 4fr;
+  grid-template-columns: 4fr 6fr 1fr;
 }
 
 .default-container-width {
@@ -76,7 +76,7 @@
 }
 
 .animation img {
-  max-width: 500px;
+  max-width: 300px;
 }
 
 .line-height {
