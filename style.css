@@ -1,3 +1,15 @@
+:root {
+    --clr-primary-900: hsl(29, 100%, 91%); 
+}
+
+:root {
+    --clr-primary-700: hsl(33, 46%, 77%); 
+}
+
+:root {
+    --clr-primary-800: hsl(55, 19%, 78%); 
+}
+
 .main-container {
   background: #ffe8d2;
   min-height: 90vh; /* 55% av nettleserens sin høyde*/
@@ -22,15 +34,16 @@
 .beige {
   background-color: #ffe8d2;
 }
-.orange {
-  background-color: #d18136;
+.sand {
+  background-color: #DFC7A9;
 }
-.brun {
-  background-color: #e2bd9a;
+.grønn {
+  background-color: #D1CFBB;
 }
-.peach {
+
+/*.peach {
   background-color: #c76e48;
-}
+}*/
 .white {
   background-color: #ecf0f2;
 }
