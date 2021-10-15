@@ -42,21 +42,23 @@ h1{
     list-style-type: none;
     line-height: 36px;
     font-family: 'Roboto Condensed', sans-serif;
-  font-style: regular; 
+  font-weight: 700; 
   font-size: 15px;
+
 }
 
 h2{
     font-family: 'Roboto Condensed', sans-serif;
-  font-style: regular; 
+  font-weight: 400; 
   font-size: 35px;
 }
 
-/*h3{
+.bold{
   font-family: 'Roboto Condensed', sans-serif;
-  font-style: bold; 
+  font-weight: 700; 
   font-size: 20px;
-}*/
+}
+
 
 p{
     font-family: 'Roboto Condensed', sans-serif;
@@ -109,12 +111,6 @@ p{
  
 }
 
-.bold {
-    font-family: 'Roboto Condensed', sans-serif;
-  font-style: bold; 
-  font-size: 20px;
-  
-}
 
 .animation img {
   max-width: 300px;
@@ -135,7 +131,7 @@ p{
 .button {
   
   position: sticky;
-  
+ 
   width: 1px;
   top: 20px;
   left: 100%;
