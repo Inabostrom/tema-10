@@ -31,6 +31,13 @@
   margin: auto;
 }
 
+h1{
+    font-family: 'Bebas Neue', cursive;
+  font-style: regular; 
+  font-size: 70px;
+
+}
+
 .beige {
   background-color: #ffe8d2;
 }
@@ -95,7 +102,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 20px;
-  left: 90%;
+  left: 100%;
   text-align: center;
   border-radius: 6px;
   min-height: 200px;
