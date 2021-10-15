@@ -111,6 +111,9 @@ p{
  
 }
 
+.tothetop-button{
+    text-align: center;
+}
 
 .animation img {
   max-width: 300px;
@@ -159,10 +162,10 @@ p{
 }
 
 .main-container-cookies {
-    
-    min-height: 2vh; /* 55% av nettleserens sin høyde*/
+  
+  
+    min-height: 3vh; /* 55% av nettleserens sin høyde*/
+    max-width: 1000px;
     display: flex;
-    flex-direction: column; /*kommer underhverandre*/
-    align-items: center; /*sentrert teksten*/
-    justify-content: center; /*teksten kommer mer ned på siden*/
+  
   }
