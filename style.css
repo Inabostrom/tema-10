@@ -68,8 +68,7 @@ li a:visited {
 }
 
 li a:hover {
-    color:hsl(0, 94%, 19%);
-    text-decoration: underline;    
+    color:hsl(0, 94%, 19%, .6);
 }
 
 
@@ -160,9 +159,9 @@ p{
 }
 
 .button {
-  
+  position: -webkit-sticky; /* Safari */
+
   position: sticky;
- 
   width: 1px;
   top: 20px;
   left: 100%;
