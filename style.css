@@ -182,7 +182,7 @@ p{
   grid-row: 1;
 }
 
-/*grid humanitærhjelp_image*/
+/*grid humanitærhjelp_animation*/
 
 .item5 {
   grid-column: 2 / span 4;
@@ -194,7 +194,17 @@ p{
   grid-row: 1;
 }
 
+/*grid humanitærhjelp_image*/
 
+.item7 {
+  grid-column: 4 / span 9;
+  grid-row: 1;
+}
+
+.item8 {
+  grid-column: 2 / span 4;
+  grid-row: 1;
+}
 
 .grid-container-2columns-text-first {
   display: grid;
@@ -239,8 +249,6 @@ p{
 
 .animation-fotavtrykk img{
   max-width: 1080px;
-  /* align-items: center; 
-  justify-content: center; */
 }
 
 .images-død img{
@@ -269,33 +277,43 @@ p{
 }
 
 .button {
-  position: -webkit-sticky; 
-
-  position: sticky;
+  
+  position: fixed;
   width: 1px;
-  top: 20px;
-  left: 100%;
+  top: 3%;
+  right: 1%;
   text-align: center;
   border-radius: 6px;
   min-height: 200px;
- 
+
   min-width: 50px;
 
   font-size: 16px;
   line-height: 1.25em;
-  background-color: #ce7006;
+  background-color: #F59A67;
 
   color: white;
 }
 
 #vertical-text{
     
-    transform: rotate(90deg);
-        float: left;
-        font-size: 15px;
+    transform: rotate(-180deg);
+       margin: 15px;
+        writing-mode: vertical-rl;
+        font-size: 20px;
         color: white;
         
     
+}
+
+.landscape-hunger-background-image {
+  height: 800px;
+  background-image: url("images/Sult.png");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .main-container-cookies {
