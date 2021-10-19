@@ -71,24 +71,39 @@ li a:hover {
     color:hsl(0, 94%, 19%, .6);
 }
 
-.unicef-link  a {
+.color-link  a {
   color: #5F0303;
   
 }
-.unicef-link a:link {
+.color-link a:link {
   color: #5F0303;
   text-decoration: none;    
 }
-.unicef-link a:visited {
+.color-link a:visited {
   color: #5F0303;
   text-decoration: none;    
 }
 
-.unicef-link a:hover {
+.color-link a:hover {
   color: hsl(0, 94%, 19%, .6);
-  
 }
 
+.color-link-gronn a {
+  color: #0C2D15;
+  
+}
+.color-link-gronn a:link {
+  color: #0C2D15;
+  text-decoration: none;    
+}
+.color-link-gronn a:visited {
+  color: #0C2D15;
+  text-decoration: none;    
+}
+
+.color-link-gronn a:hover {
+  color: hsl(136, 58%, 11%, .6);
+}
 
 h2{
     font-family: 'Roboto Condensed', sans-serif;
