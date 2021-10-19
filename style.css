@@ -169,6 +169,12 @@ p{
 
 }
 
+.grid-container-6-columns-2rows {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
 .grid-container-6-columns-3rows {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -231,6 +237,16 @@ p{
   grid-column: 5 / span 6;
   grid-row: 8;
 }
+/*text-landscape*/
+.item11 {
+  grid-column: 3 / span 11;
+  grid-row: 1;
+}
+
+.item12 {
+  grid-column: 1 / span 4;
+  grid-row: 2;
+}
 
 .grid-container-2columns-text-first {
   display: grid;
@@ -282,7 +298,7 @@ p{
 }
 
 .images-humanitærhjelp img{
-  max-width: 320px;
+  max-width: 400px;
 }
 
 .animation-humanitærhjelp img{
