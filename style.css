@@ -32,7 +32,7 @@
 
 
 .default-container-width {
-  /* max-width: 1000px; */
+ max-width: 1200px; 
   margin: auto;
 }
 
@@ -148,8 +148,12 @@ p{
   background-color: #D1CFBB;
 }
 
+.lysrød{
+  background-color: #F2D4C7;
+} 
+
 .blue{
-  background-color: #EFF1F1;
+  background-color: #cccccc;
 }
 
 .landscape-sand{
@@ -187,7 +191,7 @@ p{
 .grid-container-6-columns-2rows {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
 }
 
 .grid-container-6-columns-3rows {
@@ -254,14 +258,26 @@ p{
 }
 /*text-landscape*/
 .item11 {
-  grid-column: 3 / span 11;
+  grid-column: 4 / span 11;
   grid-row: 1;
 }
 
 .item12 {
-  grid-column: 1 / span 4;
+  grid-column: 2 / span 4;
   grid-row: 2;
 }
+
+/*18mill-10mill*/
+
+.item13 {
+  grid-column: 2 / span 3;
+  grid-row: 2;
+}
+.inherit {
+  display: inherit;
+}
+
+
 
 .grid-container-2columns-text-first {
   display: grid;
@@ -378,7 +394,7 @@ p{
   
   
     min-height: 3vh; 
-    max-width: 1000px;
+    max-width: 1200px; 
     display: flex;
   
   }
@@ -391,5 +407,11 @@ p{
  flex-direction: column; 
   align-items: flex-start; 
   justify-content: flex-start; */
+  padding: 5rem; 
+}
+
+.main-container-halfsection{
+  
+  min-height: 45vh; 
   padding: 5rem; 
 }
