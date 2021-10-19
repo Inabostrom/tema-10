@@ -25,6 +25,7 @@
   padding: 1rem;
 }
 
+/*grid container*/
 .grid-container-3columns {
   display: grid;
   grid-template-columns: 4fr 6fr 1fr;
@@ -248,12 +249,12 @@ p{
 
 /*grid hunger_landscape*/
 .item9 {
-  grid-column: 5 / span 6;
+  grid-column: 6 / span 7;
   grid-row: 7;
 }
 
 .item10 {
-  grid-column: 5 / span 6;
+  grid-column: 6 / span 7;
   grid-row: 8;
 }
 /*text-landscape*/
@@ -363,7 +364,7 @@ p{
 
   font-size: 16px;
   line-height: 1.25em;
-  background-color: #F59A67;
+  background-color: #2B6242;
 
   color: white;
 }
@@ -387,7 +388,8 @@ p{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  /* position: relative; */
+  position:static;
 }
 
 .main-container-cookies {
