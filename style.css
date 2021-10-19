@@ -32,7 +32,7 @@
 
 
 .default-container-width {
-  max-width: 1200px;
+  /* max-width: 1000px; */
   margin: auto;
 }
 
@@ -133,6 +133,14 @@ p{
   background-color: #D1CFBB;
 }
 
+.blue{
+  background-color: #EFF1F1;
+}
+
+.landscape-sand{
+  background-color: #F1E6DA;
+}
+
 /*.peach {
   background-color: #c76e48;
 }*/
@@ -158,6 +166,13 @@ p{
 .grid-container-6-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.grid-container-6-columns-3rows {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 /* grid flukt*/
@@ -204,6 +219,17 @@ p{
 .item8 {
   grid-column: 2 / span 4;
   grid-row: 1;
+}
+
+/*grid hunger_landscape*/
+.item9 {
+  grid-column: 5 / span 6;
+  grid-row: 7;
+}
+
+.item10 {
+  grid-column: 5 / span 6;
+  grid-row: 8;
 }
 
 .grid-container-2columns-text-first {
@@ -307,7 +333,8 @@ p{
 }
 
 .landscape-hunger-background-image {
-  height: 800px;
+  
+ height: 800px;
   background-image: url("images/Sult.png");
   background-color: #cccccc;
   background-position: center;
@@ -319,8 +346,19 @@ p{
 .main-container-cookies {
   
   
-    min-height: 3vh; /* 55% av nettleserens sin høyde*/
+    min-height: 3vh; 
     max-width: 1000px;
     display: flex;
   
   }
+
+.main-container-shortsection{
+  
+  min-height: 30vh; 
+ 
+  /* display: flex;
+ flex-direction: column; 
+  align-items: flex-start; 
+  justify-content: flex-start; */
+  padding: 5rem; 
+}
