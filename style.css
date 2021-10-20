@@ -136,7 +136,8 @@ h2{
 p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
 }
 
 .beige {
@@ -420,4 +421,165 @@ p{
   
   min-height: 45vh; 
   padding: 5rem; 
+}
+
+/*footer*/
+.width{
+  max-width: 500px;
+}
+
+
+/*mobil og ipad*/
+
+@media only screen and (max-width: 780px) {
+
+  h1{
+    font-size: 50px;
+  }
+
+  .grid-container-3columns{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+.grid-container-2columns-text-first{
+  display: grid;
+    grid-template-columns: 1fr;
+}
+
+ .grid-container-6-columns{
+  display: grid;
+  grid-template-columns: 1fr ;
+  /* grid-template-rows: 1fr 1fr; */
+} 
+/*humanitær bilde*/
+.item12 {
+  grid-column: 1 / span 10;
+ 
+}
+
+.item2{
+  grid-column: 1/ span 5;
+  grid-row: 1;
+ 
+}
+
+
+/*denne fikk jeg ikke helt til*/
+.item2{
+  grid-column: 2/ span 6;
+  grid-row: 2;
+ 
+}
+
+.item11 {
+  grid-column: 1/ span 12;
+  grid-row: 1;
+}
+
+.item5 {
+  grid-column: 1/ span 6;
+  grid-row: 1;
+}
+
+.item6{
+  grid-column: 1 / span 6;
+  grid-row: 2;
+}
+
+/*skadde og døde*/
+.item3{
+  grid-column: 2 / span 3;
+  grid-row: 1;
+}
+
+.item4{
+  grid-column: 2 / span 3;
+  grid-row: 2;
+}
+
+/*landskap*/
+
+.grid-container-6-columns-3rows{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+
+}
+
+
+.item9{
+  grid-column: 2/ span 3;
+  grid-row: 9;
+}
+
+.landscape-hunger-background-image {
+  
+  height: 200px;
+ 
+ }
+
+.large-prosentnumber{
+  font-size: 50px;
+}
+
+
+
+.grid-container-6-columns-2rows{
+  display: grid;
+  grid-template-columns: 1fr;
+  
+} 
+
+
+
+.images-taliban img{
+  max-width: 250px;
+}
+
+
+.images-død img{
+  max-width: 300px;
+}
+
+.images-humanitærhjelp img{
+  max-width: 230px;
+}
+
+.animation-humanitærhjelp img{
+  max-width: 350px;
+  
+}
+
+.animation-fotavtrykk img{
+  max-width: 350px;
+}
+
+.images-barnesoldat img{
+  max-width: 250px;
+}
+
+.images-flukt img {
+  max-width: 250px;
+}
+
+.button {
+  
+  min-width: 30px;
+}
+
+#vertical-text {
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+
+.large-number {
+  font-size: 50px;
+  line-height: 3rem;
+}
+
+
 }
