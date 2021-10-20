@@ -167,6 +167,12 @@ p{
 .white {
   background-color: #ecf0f2;
 }
+
+.white1{
+  background-color: white;
+}
+
+
 .large-prosentnumber {
   font-size: 80px;
   font-family: 'Roboto Condensed', sans-serif;
@@ -376,14 +382,12 @@ p{
         writing-mode: vertical-rl;
         font-size: 20px;
         color: white;
-        
-    
 }
 
 .landscape-hunger-background-image {
   
  height: 800px;
-  background-image: url("images/Sult.png");
+  background-image: url("images/landskap.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
