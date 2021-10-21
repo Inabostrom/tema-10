@@ -445,6 +445,8 @@ p{
     line-height: 3rem;
   }
 
+  
+
   .grid-container-3columns{
     display: grid;
     grid-template-columns: 1fr;
@@ -508,6 +510,14 @@ p{
 
 /*landskap*/
 
+/* .grid-mobil{
+  min-height: 30vh; 
+  max-width: 1200px; 
+  margin: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #F1E6DA;
+} */
+
 .grid-container-6-columns-3rows{
   display: grid;
   grid-template-columns: 1fr;
@@ -521,6 +531,14 @@ p{
   grid-row: 9;
 }
 
+.item10{
+  grid-column: 2/ span 3;
+  grid-row: 9;
+}
+.fontsize{
+  font-size: 16px;
+}
+
 .landscape-hunger-background-image {
   
   height: 200px;
@@ -530,6 +548,8 @@ p{
 .large-prosentnumber{
   font-size: 50px;
 }
+
+
 
 
 
