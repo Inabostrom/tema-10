@@ -433,8 +433,16 @@ p{
 
 @media only screen and (max-width: 780px) {
 
+
+  /*tekst*/
   h1{
     font-size: 50px;
+  }
+
+  .large-number {
+    /* font-size: 50px; */
+    font-size: 20px;
+    line-height: 3rem;
   }
 
   .grid-container-3columns{
@@ -576,10 +584,7 @@ p{
 }
 
 
-.large-number {
-  font-size: 50px;
-  line-height: 3rem;
-}
+
 
 
 }
