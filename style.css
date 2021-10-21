@@ -299,7 +299,7 @@ p{
 }
 
 .large-number {
-  font-size: 60px;
+  font-size: 4rem;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
  
@@ -427,7 +427,9 @@ p{
 .width{
   max-width: 500px;
 }
-
+.width-400 {
+  max-width: 400px;
+}
 
 /*mobil og ipad*/
 
@@ -439,13 +441,17 @@ p{
     font-size: 50px;
   }
 
-  .large-number {
+  p.large-number{
     /* font-size: 50px; */
-    font-size: 20px;
-    line-height: 3rem;
+    line-height: 4.1rem;
   }
+  .main-container-shortsection{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
-  
+  }
 
   .grid-container-3columns{
     display: grid;
@@ -510,29 +516,21 @@ p{
 
 /*landskap*/
 
-/* .grid-mobil{
-  min-height: 30vh; 
-  max-width: 1200px; 
-  margin: auto;
-  grid-template-rows: 1fr 1fr 1fr;
-  background-color: #F1E6DA;
-} */
-
 .grid-container-6-columns-3rows{
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 7.5fr 4fr;
+  grid-template-rows: 1fr 2fr;
 
 }
 
 
 .item9{
-  grid-column: 2/ span 3;
-  grid-row: 9;
+  grid-column: 2;
+  grid-row: 1;
 }
 
 .item10{
-  grid-column: 2/ span 3;
+  grid-column: 2;
   grid-row: 9;
 }
 .fontsize{
@@ -548,8 +546,6 @@ p{
 .large-prosentnumber{
   font-size: 50px;
 }
-
-
 
 
 
@@ -602,9 +598,5 @@ p{
   font-size: 16px;
   margin-top: 20px;
 }
-
-
-
-
 
 }
