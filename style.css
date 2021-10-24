@@ -16,12 +16,11 @@
 
 .main-container {
   background: #ffe8d2;
-  min-height: 90vh; /* 55% av nettleserens sin høyde*/
+  min-height: 90vh; 
   display: flex;
-  flex-direction: column; /*kommer underhverandre*/
-  align-items: center; /*sentrert teksten*/
-  justify-content: center; /*teksten kommer mer ned på siden*/
-
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
   padding: 1rem;
 }
 
@@ -162,9 +161,6 @@ p{
   background-color: #F1E6DA;
 }
 
-/*.peach {
-  background-color: #c76e48;
-}*/
 .white {
   background-color: #ecf0f2;
 }
@@ -199,7 +195,6 @@ p{
 .grid-container-6-columns-2rows {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  /* grid-template-rows: 1fr 1fr; */
 }
 
 .grid-container-6-columns-3rows {
@@ -371,7 +366,7 @@ p{
 
   font-size: 16px;
   line-height: 1.25em;
-  background-color: #2B6242;
+  background-color: #F92621;
 
   color: white;
 }
@@ -409,11 +404,6 @@ p{
 .main-container-shortsection{
   
   min-height: 30vh; 
- 
-  /* display: flex;
- flex-direction: column; 
-  align-items: flex-start; 
-  justify-content: flex-start; */
   padding: 5rem; 
 }
 
