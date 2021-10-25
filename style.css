@@ -426,13 +426,12 @@ p{
 @media only screen and (max-width: 780px) {
 
 
-  /*tekst*/
+  
   h1{
     font-size: 50px;
   }
 
   p.large-number{
-    /* font-size: 50px; */
     line-height: 4.1rem;
   }
   .main-container-shortsection{
@@ -456,7 +455,7 @@ p{
  .grid-container-6-columns{
   display: grid;
   grid-template-columns: 1fr ;
-  /* grid-template-rows: 1fr 1fr; */
+ 
 } 
 /*humanitær bilde*/
 .item12 {
