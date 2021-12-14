@@ -73,7 +73,7 @@ li a:hover {
 }
 
 .color-link a:hover {
-  color: hsl(0, 94%, 19%, .6);
+  color: hsla(0, 94%, 19%, 0.6);
 }
 
 .color-link-gronn a {
